@@ -7,7 +7,7 @@ print("please enter the ciphertext")
 m = str(input())
 
 #import random
-#k = random.randint(1,26)
+k = random.randint(1,26)
 
 # this will act as our key
 def encode_shift(m,k):
