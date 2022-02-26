@@ -25,10 +25,10 @@ def encode_affine(m,a,b):
         c = c+ chr(cip_let)
     return c
 
-print("please select Encode(1) or decode(0)")
+print("please select Encode(1) or decode(0)") #allows to run both encoding and decoding 
 i = int(input())
 
-if(i==1):
+if(i==1): # encoding
     print("Please enter the plaintext")
     m = str(input())
     import random
