@@ -37,9 +37,9 @@ if(i==1): # encoding
     c = encode_affine(m,a,b)
     print("the ciphertext is ", c, "and the key is (",a,",",b ,").")
 
-def decode_affine(c):
+def decode_affine(c): #this will decode the cipher
     for a in range(1,27):
-        for b in range(1,27):
+        for b in range(1,27): #select keys starting from 1 to 26
             m = ""
             for i in c:
                 asci_val = ord(i)
